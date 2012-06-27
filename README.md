@@ -1,9 +1,9 @@
-visu
+Visu
 ====
 
 Avoin selainpohjainen tilastojen visualisointityökalu
 
-Toteutuksia
-===========
+Käytössä sivustoilla
+====================
 
 http://www.pirkanmaa.fi/fi/pirkanmaa/avoin-tilastopalvelu
