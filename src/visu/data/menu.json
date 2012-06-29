@@ -1,0 +1,300 @@
+{
+	"category_list": [
+		"vaestonkehitys",
+		"koulutus",
+		"kunnantalous",
+		"elinkeino"
+	],
+	
+	"categories": {
+		"vaestonkehitys": {
+			"title": "Väestönkehitys",
+			"stat_list": ["vaestonmuutos", "lapsivaestonmuutos", "huoltosuhde"]
+		},
+		"koulutus": {
+			"title": "Koulutus ja osaaminen",
+			"stat_list": ["koulutusaste"]
+		},
+		"kunnantalous": {
+			"title": "Kunnan talous",
+			"stat_list": ["vuosikate", "lainakanta"]
+		},
+		"elinkeino": {
+			"title": "Elinkeino ja työssäkäynti",
+			"stat_list": ["liikevaihdonmuutos", "tyottomyysaste", "muuallatyossakayvat", "tyopaikat"]
+		}
+	},
+	
+	"stats": {
+		"vaestonmuutos": {
+			"title": "Väestönmuutos",
+			"description": "Pirkanmaan kuntien asukasluvun prosentuaalinen muutos vuodesta 2000 vuoteen 2011.",
+			"data_set_list": ["vaestonmuutos2010-2011", "vaestonmuutos2009-2010", "vaestonmuutos2008-2009", "vaestonmuutos2007-2008", "vaestonmuutos2006-2007", "vaestonmuutos2005-2006", "vaestonmuutos2004-2005", "vaestonmuutos2003-2004", "vaestonmuutos2002-2003", "vaestonmuutos2001-2002", "vaestonmuutos2000-2001"],
+			"source_list": ["tilastokeskus-vaestonmuutos"]
+		},
+		"lapsivaestonmuutos": {
+			"title": "Lapsiväestönmuutos",
+			"description": "Pirkanmaan kuntien lapsiväestön (0-14v) prosentuaalinen muutos vuodesta 2000 vuoteen 2010.",
+			"data_set_list": ["lapsivaestonmuutos2009-2010", "lapsivaestonmuutos2008-2009", "lapsivaestonmuutos2007-2008", "lapsivaestonmuutos2006-2007", "lapsivaestonmuutos2005-2006", "lapsivaestonmuutos2004-2005", "lapsivaestonmuutos2003-2004", "lapsivaestonmuutos2002-2003", "lapsivaestonmuutos2001-2002", "lapsivaestonmuutos2000-2001"],
+			"source_list": ["tilastokeskus-vaestonmuutos"]
+		},
+		"huoltosuhde": {
+			"title": "Huoltosuhteen ennuste",
+			"description": "Ennuste vuodelle 2025 Pirkanmaan työikäisen väestön (15-64v) suhteesta lapsiväestöön (0-14v) ja eläkeikäisiin (65v+). Huoltosuhdeluku kertoo ei-työikäisten määrän sataa työikäistä kohti. Esimerkiksi jos huoltosuhdeluku on 100.0, yksi työikäinen huoltaa itsensä lisäksi yhden yli tai alle työikäisen.",
+			"data_set_list": ["huoltosuhde2025"],
+			"source_list": ["tilastokeskus-huoltosuhde"]
+		},
+		"koulutusaste": {
+			"title": "Koulutusaste",
+			"description": "Perusasteen jälkeisiä tutkintoja suorittanut väestö suhteessa kunnan koko väestöön 2010. Perusasteen jälkeisiin tutkintoihin sisältyy alempi ja ylempi korkea-aste ja tutkijakoulutus.",
+			"data_set_list": ["koulutusaste2010"],
+			"source_list": ["tilastokeskus-koulutusaste"]
+		},
+		"vuosikate": {
+			"title": "Vuosikate",
+			"description": "Kunnan vuosikate €/asukas vuonna 2010. Vuosikate osoittaa kunnan sen tulorahoituksen, joka juoksevien menojen maksamisen jälkeen jää jäljelle käytettäväksi investointeihin, sijoituksiin ja lainojen lyhennyksiin.",
+			"data_set_list": ["vuosikate2010"],
+			"source_list": ["tilastokeskus-tunnusluvut", "tilastokeskus_vuosikateselite"]
+		},
+		"lainakanta": {
+			"title": "Lainakanta",
+			"description": "Kunnan lainakanta €/asukas vuonna 2010. Kunnan lainakannalla tarkoitetetaan korollista vierasta pääomaa, kuten esimerkiksi lainoja.",
+			"data_set_list": ["lainakanta2010"],
+			"source_list": ["tilastokeskus-tunnusluvut", "tilastokeskus-lainakanta-selite"]
+		},
+		"liikevaihdonmuutos": {
+			"title": "Yritysten liikevaihdon muutos",
+			"description": "Yritysten yhteenlasketun liikevaihdon muutos kunnissa prosentteina edellisvuodesta vuosina 2007-2010.",
+			"data_set_list": ["liikevaihdonmuutos2009-2010", "liikevaihdonmuutos2008-2009", "liikevaihdonmuutos2007-2008"],
+			"source_list": ["tilastokeskus-vuositilasto"]
+			
+		},
+		"tyottomyysaste": {
+			"title": "Työttömyysaste",
+			"description": "Työttömien prosentuaalinen osuus työvoimasta vuonna 2011.",
+			"data_set_list": ["tyottomyys2011"],
+			"source_list": ["tem"]
+			
+		},
+		"muuallatyossakayvat": {
+			"title": "Muissa kunnissa työssäkäyvät",
+			"description": "Muualla kuin asuinkunnassaan työssäkäyvät (% työssäkäyvistä) 2009. Pirkanmaalta muissa maakunnissa käy 6.7 % työssäkäyvistä.",
+			"data_set_list": ["muuallatyossakayvat2009"],
+			"source_list": ["tilastokeskus-tyossakaynti"]
+			
+		},
+		"tyopaikat": {
+			"title": "Työpaikat suhteessa työssäkäyviin",
+			"description": "Työpaikkojen määrän muutos suhteessa työssäkäyviin kunnittain. Työpaikalla tarkoitetaan työtä, jossa yksi työssäkäyvä työskentelee säännöllisesti.",
+			"data_set_list": ["tyopaikat2008-2009", "tyopaikat2007-2008", "tyopaikat2006-2007", "tyopaikat2005-2006", "tyopaikat2004-2005", "tyopaikat2003-2004", "tyopaikat2002-2003", "tyopaikat2001-2002", "tyopaikat2000-2001"],
+			"source_list": ["tilastokeskus-tyopaikat"]
+		}
+	},
+	
+	"data_sets": {
+		"vaestonmuutos2010-2011": {
+			"title": "2010-2011",
+			"path": "vaestonmuutos2010-2011.json"
+		},
+		"vaestonmuutos2009-2010": {
+			"title": "2009-2010",
+			"path": "vaestonmuutos2009-2010.json"
+		},
+		"vaestonmuutos2008-2009": {
+			"title": "2008-2009",
+			"path": "vaestonmuutos2008-2009.json"
+		},
+		"vaestonmuutos2007-2008": {
+			"title": "2007-2008",
+			"path": "vaestonmuutos2007-2008.json"
+		},
+		"vaestonmuutos2006-2007": {
+			"title": "2006-2007",
+			"path": "vaestonmuutos2006-2007.json"
+		},
+		"vaestonmuutos2005-2006": {
+			"title": "2005-2006",
+			"path": "vaestonmuutos2005-2006.json"
+		},
+		"vaestonmuutos2004-2005": {
+			"title": "2004-2005",
+			"path": "vaestonmuutos2004-2005.json"
+		},
+		"vaestonmuutos2003-2004": {
+			"title": "2003-2004",
+			"path": "vaestonmuutos2003-2004.json"
+		},
+		"vaestonmuutos2002-2003": {
+			"title": "2002-2003",
+			"path": "vaestonmuutos2002-2003.json"
+		},
+		"vaestonmuutos2001-2002": {
+			"title": "2001-2002",
+			"path": "vaestonmuutos2001-2002.json"
+		},
+		"vaestonmuutos2000-2001": {
+			"title": "2000-2001",
+			"path": "vaestonmuutos2000-2001.json"
+		},
+		"lapsivaestonmuutos2009-2010": {
+			"title": "2009-2010",
+			"path": "lapsivaestonmuutos2009-2010.json"
+		},
+		"lapsivaestonmuutos2008-2009": {
+			"title": "2008-2009",
+			"path": "lapsivaestonmuutos2008-2009.json"
+		},
+		"lapsivaestonmuutos2007-2008": {
+			"title": "2007-2008",
+			"path": "lapsivaestonmuutos2007-2008.json"
+		},
+		"lapsivaestonmuutos2006-2007": {
+			"title": "2006-2007",
+			"path": "lapsivaestonmuutos2006-2007.json"
+		},
+		"lapsivaestonmuutos2005-2006": {
+			"title": "2005-2006",
+			"path": "lapsivaestonmuutos2005-2006.json"
+		},
+		"lapsivaestonmuutos2004-2005": {
+			"title": "2004-2005",
+			"path": "lapsivaestonmuutos2004-2005.json"
+		},
+		"lapsivaestonmuutos2003-2004": {
+			"title": "2003-2004",
+			"path": "lapsivaestonmuutos2003-2004.json"
+		},
+		"lapsivaestonmuutos2002-2003": {
+			"title": "2002-2003",
+			"path": "lapsivaestonmuutos2002-2003.json"
+		},
+		"lapsivaestonmuutos2001-2002": {
+			"title": "2001-2002",
+			"path": "lapsivaestonmuutos2001-2002.json"
+		},
+		"lapsivaestonmuutos2000-2001": {
+			"title": "2000-2001",
+			"path": "lapsivaestonmuutos2000-2001.json"
+		},
+		"huoltosuhde2025": {
+			"title": "2025",
+			"path": "huoltosuhde2025.json"
+		},
+		"koulutusaste2010": {
+			"title": "2010",
+			"path": "koulutusaste2010.json"
+		},
+		"vuosikate2010": {
+			"title": "2010",
+			"path": "vuosikate2010.json"
+		},
+		"lainakanta2010": {
+			"title": "2010",
+			"path": "lainakanta2010.json"
+		},
+		"liikevaihdonmuutos2007-2008": {
+			"title": "2007-2008",
+			"path": "liikevaihdonmuutos2007-2008.json"
+		},
+		"liikevaihdonmuutos2008-2009": {
+			"title": "2008-2009",
+			"path": "liikevaihdonmuutos2008-2009.json"
+		},
+		"liikevaihdonmuutos2009-2010": {
+			"title": "2009-2010",
+			"path": "liikevaihdonmuutos2009-2010.json"
+		},
+		"tyottomyys2011": {
+			"title": "2011",
+			"path": "tyottomyys2011.json"
+		},
+		"muuallatyossakayvat2009": {
+			"title": "2009",
+			"path": "muuallatyossakayvat2009.json"
+		},
+		"tyopaikat2000-2001": {
+			"title": "2000-2001",
+			"path": "tyopaikkojenmuutos2000-2001.json"
+		},
+		"tyopaikat2001-2002": {
+			"title": "2001-2002",
+			"path": "tyopaikkojenmuutos2001-2002.json"
+		},
+		"tyopaikat2002-2003": {
+			"title": "2002-2003",
+			"path": "tyopaikkojenmuutos2002-2003.json"
+		},
+		"tyopaikat2003-2004": {
+			"title": "2003-2004",
+			"path": "tyopaikkojenmuutos2003-2004.json"
+		},
+		"tyopaikat2004-2005": {
+			"title": "2004-2005",
+			"path": "tyopaikkojenmuutos2004-2005.json"
+		},
+		"tyopaikat2005-2006": {
+			"title": "2005-2006",
+			"path": "tyopaikkojenmuutos2005-2006.json"
+		},
+		"tyopaikat2006-2007": {
+			"title": "2006-2007",
+			"path": "tyopaikkojenmuutos2006-2007.json"
+		},
+		"tyopaikat2007-2008": {
+			"title": "2007-2008",
+			"path": "tyopaikkojenmuutos2007-2008.json"
+		},
+		"tyopaikat2008-2009": {
+			"title": "2008-2009",
+			"path": "tyopaikkojenmuutos2008-2009.json"
+		}
+	},
+	
+	"sources": {
+		"tilastokeskus": {
+			"title": "Tilastokeskus",
+			"url": "http://www.stat.fi/"
+		},
+		"tilastokeskus-vaestonmuutos": {
+			"title": "Tilastokeskus - Väestönmuutos",
+			"url": "http://pxweb2.stat.fi/Database/StatFin/vrm/vaerak/vaerak_fi.asp"
+		},
+		"tilastokeskus-huoltosuhde": {
+			"title": "Tilastokeskus - Huoltosuhde",
+			"url": "http://pxweb2.stat.fi/Database/StatFin/vrm/vaenn/vaenn_fi.asp"
+		},
+		"tilastokeskus-koulutusaste": {
+			"title": "Tilastokeskus - Koulutusaste",
+			"url": "http://pxweb2.stat.fi/Database/StatFin/kou/vkour/vkour_fi.asp"
+		},
+		"tilastokeskus-tunnusluvut": {
+			"title": "Tilastokeskus - Kuntien tunnusluvut 2010",
+			"url": "http://pxweb2.stat.fi/Database/StatFin/jul/ktt/2010/2010_fi.asp"
+		},
+		"tilastokeskus-vuositilasto": {
+			"title": "Tilastokeskus - Yritysrekisterin vuositilasto",
+			"url": "http://pxweb2.stat.fi/Database/StatFin/yri/syr/020_top_tol08/020_top_tol08_fi.asp"
+		},
+		"tilastokeskus-tyossakaynti": {
+			"title": "Tilastokeskus: Väestötilastopalvelut: Elinkeinorakenne ja työssäkäynti.",
+			"url": "http://tilastokeskus.fi/tup/vaesto_tyossakaynti/index.html"
+		},
+		"tilastokeskus-tyopaikat": {
+			"title": "Tilastokeskus - Työssäkäynti",
+			"url": "http://tilastokeskus.fi/meta/til/tyokay.html"
+		},
+		"tilastokeskus_vuosikateselite": {
+			"title": "Tilastokeskus - Selite",
+			"url": "http://www.stat.fi/meta/kas/vuosikate.html"
+		},
+		"tilastokeskus-lainakanta-selite": {
+			"title": "Tilastokeskus - Selite",
+			"url": "http://www.stat.fi/meta/kas/lainakanta.html"
+		},
+		"tem": {
+			"title": "Työ- ja elinkeinoministeriö",
+			"url": "http://www.tem.fi/index.phtml?s=4812"
+		}
+	}
+	
+}

@@ -1,0 +1,36 @@
+{
+	"title": "Muualla kuin asuinkunnassaan työssäkäyvät 2009",
+	"data-unit-symbol": "%",
+	"data-description": "Osuus työllisistä",
+	"display-color": "Oranges",
+	"invert-colors": false,
+	"display-range": {
+		"min": 20,
+		"max": 80
+	},
+	"data": {
+		"akaa": 47.9,
+		"hameenkyro": 48.1 ,
+		"ikaalinen": 30.4,
+		"juupajoki": 41.1,
+		"kangasala": 59.6,
+		"kihnio": 31.2,
+		"lempaala": 65.5,
+		"mantta-vilppula": 19.6,
+		"nokia": 52.4,
+		"orivesi": 43.0,
+		"parkano": 20.7,
+		"pirkkala": 74.3 ,
+		"punkalaidun": 33.6,
+		"palkane": 41.9,
+		"ruovesi": 24.7,
+		"sastamala": 26.7,
+		"tampere": 18.7,
+		"urjala": 35.7,
+		"valkeakoski": 31.3,
+		"vesilahti": 69.5,
+		"virrat": 22.9,
+		"ylojarvi": 61.6,
+		"pirkanmaa": 6.7
+	}
+}

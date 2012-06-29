@@ -1,0 +1,36 @@
+{
+	"title": "Vuosikate 2010",
+	"data-unit-symbol": "€/asukas",
+	"data-description": "Vuosikate",
+	"display-color": "Greens",
+	"display-range": {
+		"min": 100,
+		"max": 700
+	},
+	"data": {
+		"akaa": 348,
+		"hameenkyro": 455,
+		"ikaalinen": 213,
+		"juupajoki": 288,
+		"kangasala": 602,
+		"kihnio": 514,
+		"lempaala": 512,
+		"mantta-vilppula": 323,
+		"nokia": 421,
+		"orivesi": 482,
+		"parkano": 499,
+		"pirkkala": 411,
+		"punkalaidun": 436,
+		"palkane": 753,
+		"ruovesi": 30,
+		"sastamala": 483,
+		"tampere": 490,
+		"urjala": 390,
+		"valkeakoski": 476,
+		"vesilahti": 457,
+		"virrat": 388,
+		"ylojarvi": 499,
+		"pirkanmaa": 468,
+		"suomi": 461
+	}
+}

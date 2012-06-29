@@ -1,0 +1,46 @@
+{
+	"title": "Lapsiväestön muutos 2009-2010",
+	"data-unit-symbol": "%",
+	"data-description": "Muutos",
+	"display-color": "RdYlBu", "invert-colors": true,
+	"display-range": {
+		"min": -5,
+		"max": 5
+	},
+	"data": {
+                "akaa":2.3,
+                "urjala":2,
+                "valkeakoski":1.6,
+                
+                
+                "punkalaidun":-1.4,
+                "sastamala":-1.3,
+                
+                
+                "ikaalinen":0.3,
+                "kihnio":-2.1,
+                "parkano":-2.6,
+                
+                
+                "hameenkyro":-0.7,
+                "kangasala":1,
+                "lempaala":2.6,
+                "nokia":1.8,
+                "orivesi":0,
+                "pirkkala":2.5,
+                "palkane":-2.2,
+                "tampere":0.2,
+                "vesilahti":0.8,
+                "ylojarvi":0.4,
+                
+                
+                "juupajoki":-2.4,
+                "mantta-vilppula":0.2,
+                "ruovesi":-2.4,
+                "virrat":-3.1,
+                
+                "pirkanmaa":0.6,
+                "suomi":-0.1
+
+                }
+}

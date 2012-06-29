@@ -1,0 +1,36 @@
+{
+	"title": "Lainakanta 2010",
+	"data-unit-symbol": "€",
+	"data-description": "Lainakanta",
+	"display-color": "Greens",
+	"display-range": {
+		"min": 0,
+		"max": 2000
+	},
+	"data": {
+		"akaa": 1884,
+		"hameenkyro": 779,
+		"ikaalinen": 1367,
+		"juupajoki": 1171,
+		"kangasala": 1682,
+		"kihnio": 750,
+		"lempaala": 1632,
+		"mantta-vilppula": 1504,
+		"nokia": 1850,
+		"orivesi": 1499,
+		"parkano": 1510,
+		"pirkkala": 2456,
+		"punkalaidun": 810,
+		"palkane": 571,
+		"ruovesi": 1654,
+		"sastamala": 1741,
+		"tampere": 1464,
+		"urjala": 1110,
+		"valkeakoski": 1995,
+		"vesilahti": 3138,
+		"virrat": 335,
+		"ylojarvi": 2051,
+		"pirkanmaa": 1594,
+		"suomi": 1957
+	}
+}

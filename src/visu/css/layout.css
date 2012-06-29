@@ -1,0 +1,248 @@
+/**
+ * @package Avanto.in Visu
+ * @author Akseli Palén
+ * 
+ * @brief Visu Styles
+ * 
+ * Common colors:
+ * 	text: #565555
+ * 	background: #FAFAFA
+ */
+
+.visu-container {
+	position: relative; /* For modal window */
+}
+#visu-menu-slot {
+	width: 230px;
+	float: left;
+}
+#visu-data {
+	margin: 1em 0; /* Like ul-elements */
+	width: 360px; /* Update .visu-map-svg and visumap.js width too */
+	float: right;
+}
+#visu-map-slot {
+	margin: 1em 0 0 0; /* Like ul-elements in original style */
+	position: relative; /* For modal info window */
+}
+#visu-table-slot {
+	
+}
+
+.visu-footer {
+	text-align: right;
+	color: #999999;
+}
+
+.visu-clear {
+	clear: both;
+}
+
+
+/**
+ * Common styles
+ */
+.visu-external-link {
+	padding-right: 14px;
+	background: url('../img/external.png') no-repeat right center;
+}
+
+
+/**
+ * VisuMenu
+ */
+ul.visu-categories {
+	padding-left: 0;
+	list-style-type: none;
+}
+
+.visu-stat {
+	border-bottom: 1px dashed #DDD;
+}
+
+.visu-stat h3 {
+	cursor: pointer;
+	color: #35859F;
+}
+
+.visu-stat .visu-stat-content {
+	padding: 0 0.618em 0.618em 0.618em;
+	background: url('../img/visu-stat-gradient.png') repeat-x left bottom;
+}
+
+.visu-menu ul.visu-sources {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.visu-menu h4 {
+	font-weight: bold;
+}
+
+.visu-menu ul.visu-data-sets {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+.visu-menu .visu-active h3 {
+	color: #9F5035;
+}
+.visu-menu .visu-data-sets .visu-active a {
+	color: #9F5035;
+	font-weight: bold;
+}
+
+/**
+ * VisuStatus
+ */
+.visu-status p {
+	text-align: center;
+}
+	
+
+/**
+ * VisuTitle
+ */
+.visu-title {
+	text-align: right;
+}
+.visu-title-heading {
+	background-color: #717171;
+	color: white;
+	padding: 0.382em;
+}
+.visu-title-description {
+	margin: 0;
+}
+
+/**
+ * VisuMap
+ */
+.visu-map-svg {
+	margin: 0;
+	background: transparent;
+	width: 360px; /* Update #visu-data and visumap.js width too */
+	height: 480px; /* Update visumap.js height too */
+}
+
+.visu-map-svg #areas path {
+	stroke: #565555;
+	stroke-width: 2px;
+}
+
+.visu-map-svg #areas path.active {
+	fill: #FFFFFF;
+	cursor: pointer;
+}
+
+/**
+ * VisuLegend (on VisuMap)
+ */
+.visu-map-svg .visu-legend-title {
+	fill: #565555;
+}
+
+.visu-map-svg .visu-legend-tick {
+	fill: #565555;
+}
+
+.visu-map-svg .visu-legend-ends rect {
+	fill: #CDCCCC;
+}
+
+/**
+ * VisuTooltip
+ */
+
+.visu-tooltip {
+	position:absolute;
+	z-index:999;
+	left:-9999px;
+	background-color:#dedede;
+	padding:1px;
+	border:1px solid #fff;
+	width:140px;
+}
+
+.visu-tooltip-content {
+	margin:0;
+	padding:0;
+	color:#fff;
+	background-color:#222;
+	padding:2px 7px;
+}
+
+.visu-tooltip .visu-tooltip-title {
+	font-weight: bold;
+}
+
+/**
+ * VisuTable
+ */
+.visu-table .visu-table-title {
+	text-align: right;
+	display: none; /* Display if map cannot be drawn */
+}
+
+.visu-table .visu-special {
+	background-color: #B8C7CC;
+}
+
+/**
+ * VisuModal info window
+ */
+
+.visu-modal-bg {
+	position:absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+	opacity: 0.8;
+	z-index: 1000;
+}
+
+.visu-modal-frame {
+	position:absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1001;
+}
+
+.visu-modal-window {
+	margin: 2em;
+}
+
+.visu-modal-frame .visu-modal-actions {
+	float: right;
+}
+.visu-modal-action {
+	font-size: 2em;
+	cursor: pointer;
+	color: #999999;
+}
+.visu-modal-action:hover {
+	color: #FFFFFF;
+}
+
+.visu-modal-content {
+	font-size: 16px;
+	color: #CCCCCC;
+}
+.visu-modal-content h2 {
+	color: #FFFFFF;
+}
+.visu-modal-content a:link { color: #86D2EB; }
+.visu-modal-content a:visited { color: #86D2EB; }
+.visu-modal-content a:hover { color: #86D2EB; }
+.visu-modal-content a:active { color: #86D2EB; }
+
+.visu-modal-heading {
+	border-bottom:  1px dashed #565555;
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+}

@@ -1,0 +1,73 @@
+
+=====================================================
+Visu-tilastovisualisaation asennusohjeet
+Päivitetty 24.5.2012
+=====================================================
+
+----------------------
+Suunnittelu & Toteutus
+----------------------
+	Avanto.in & Akseli Palén
+	akseli.palen@gmail.com
+	akselipalen.com
+
+----------------------
+Asennuspaketin rakenne
+----------------------
+
+	doc -- Ohjeet ja dokumentaatio
+		ohjeet_yllapitajalle...pdf -- Ohjeet tilaston lisäämiseen ja poistoon. 
+
+	example -- Standalone esimerkki asennuksesta pirkanmaa.fi-sivustolle
+		original -- Pirkanmaa.fi:n tiedostoja
+		visu -- Aputiedostot
+		index.html -- Pirkanmaa.fi:n etusivu
+		tilastoja.html
+			-- Pirkanmaa.fi:n alasivu, johon lisätty Visun HTML.
+			-- Ks. rivit 250-350
+			
+	src -- Asennettavat tiedostot
+		visu -- Aputiedostot kuten JS-kirjastot, kuvat ja tyylit
+			css -- Tyylit
+			data -- Tilastot JSON-muodossa
+			img -- Kuvat
+			js -- JavaScript-luokat ja apukirjastot
+				main.js -- aloittaa visualisaation
+		snippet.html -- Kohdesivulle liitettävä HTML
+	
+	INSTALLATION -- Nämä asennusohjeet
+
+-----------
+Vaatimukset
+-----------
+	jQuery 1.4.4 tai uudempi tulee olla ladattuna
+
+-------
+Asennus
+-------
+
+	1. Kopioi src/visu/-hakemisto kohdesivustolle
+	2. Kopioi src/snippet.html-tiedoston sisältämä HTML kohdesivulle.
+	3. Jos tarvetta, päivitä kopioidun HTML:n link ja script -tagien osoitteet
+	   vastaamaan src/visu/-hakemiston asennussijaintia.
+
+-------
+Huomioi
+-------
+	- Visualisaatio sijoitetaan sivuston navigaatiorakenteeseen
+		Pirkanmaa > Pirkanmaan tilastoja
+	- Visu on suunniteltu 650px leveyteen. Näin ollen kohdesivulla ei voida
+	  näyttää mm. hakukentän sisältävää oikeaa sivupalkkia. HTML:ssä tämä
+	  tarkoittanee että body-tagi sisältää luokan "one-sidebar" luokan
+	  "two-sidebars" sijaan. Tämä lienee Drupalin kautta hoidettavissa.
+	- Visualisaatio on toteutettu ainoastaan suomeksi.
+
+-----
+Muuta
+-----
+
+	Hakemiston src/visu rakenne tulee pitää samana, sillä sekä
+	src/visu/css/layout.css että src/visu/js/visucontroller.js sisältävät
+	suhteellisia viittauksia muihin src/visu-hakemiston alaisiin tiedostoihin.
+	
+

@@ -1,0 +1,37 @@
+{
+	"title": "Työpaikat per työssäkäyvät 2004-2005",
+	"data-unit-symbol": "%",
+	"data-description": "Muutosprosentti",
+	"display-color": "RdYlBu",
+	"invert-colors": true,
+	"display-range": {
+		"min": -5,
+		"max": 5
+	},
+	"data": {
+		"akaa": -4.92,
+		"hameenkyro": 0.71,
+		"ikaalinen": -0.51,
+		"juupajoki": -0.61,
+		"kangasala": 0.70,
+		"kihnio": -0.41,
+		"lempaala": -2.70,
+		"mantta-vilppula": -2.23,
+		"nokia": 3.14,
+		"orivesi": -2.10,
+		"parkano": -5.60,
+		"pirkkala": 4.13,
+		"punkalaidun": -0.18,
+		"palkane": -7.38,
+		"ruovesi": -0.69,
+		"sastamala": -1.27,
+		"tampere": 1.80,
+		"urjala": -0.46,
+		"valkeakoski": -1.42,
+		"vesilahti": -3.38,
+		"virrat": 0.08,
+		"ylojarvi": -0.77,
+		"pirkanmaa": 0.69,
+		"suomi": 0.13
+	}
+}

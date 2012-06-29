@@ -1,0 +1,36 @@
+{
+	"title": "Huoltosuhde 2025",
+	"data-unit-symbol": "",
+	"data-description": "Huoltosuhdeluku",
+	"display-color": "Blues",
+	"invert-colors": false,
+	"display-range": {
+		"min": 50,
+		"max": 100
+	},
+	"data": {
+                "akaa":71.8,
+                "hameenkyro":74.7, 
+                "ikaalinen":87.9,
+                "juupajoki":101.5,
+                "kangasala":72.7,
+                "kihnio":102.7,
+                "lempaala":68.3,
+                "mantta-vilppula":95.9,
+                "nokia":67.5,
+                "orivesi":86.1, 
+                "parkano":99.1,
+                "pirkkala":66.8, 
+                "punkalaidun":95.6, 
+                "palkane":82.4,
+                "ruovesi":97.6,
+                "sastamala":86.0,
+                "tampere":56.0,
+                "urjala":86.3,
+                "valkeakoski":77.8, 
+                "vesilahti":66.6,
+                "virrat":97.7,
+                "ylojarvi":69.8,
+                "suomi":69.7
+        }
+}

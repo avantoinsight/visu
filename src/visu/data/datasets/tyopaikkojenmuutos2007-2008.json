@@ -1,0 +1,37 @@
+{
+	"title": "Työpaikat per työssäkäyvät 2007-2008",
+	"data-unit-symbol": "%",
+	"data-description": "Muutosprosentti",
+	"display-color": "RdYlBu",
+	"invert-colors": true,
+	"display-range": {
+		"min": -5,
+		"max": 5
+	},
+	"data": {
+                "suomi":0.34,
+                "pirkanmaa":-0.17,
+                "akaa":0.69,
+                "hameenkyro":2.11,
+                "ikaalinen":-2.85,
+                "juupajoki":-6.27,
+                "kangasala":1.33,
+                "kihnio":-6.14,
+                "lempaala":1.03,
+                "mantta-vilppula":-2.31,
+                "nokia":-1.52,
+                "orivesi":1.74,
+                "parkano":0.03,
+                "pirkkala":-0.24,
+                "punkalaidun":-5.47,
+                "palkane":-5.91,
+                "ruovesi":0.96,
+                "sastamala":-2.02,
+                "tampere":0.42,
+                "urjala":0.05,
+                "valkeakoski":-6.88,
+                "vesilahti":0.85,
+                "virrat":-1.68,
+                "ylojarvi":2.52
+	}
+}

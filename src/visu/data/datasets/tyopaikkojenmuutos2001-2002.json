@@ -1,0 +1,37 @@
+{
+	"title": "Työpaikat per työssäkäyvät 2001-2002",
+	"data-unit-symbol": "%",
+	"data-description": "Muutosprosentti",
+	"display-color": "RdYlBu",
+	"invert-colors": true,
+	"display-range": {
+		"min": -5,
+		"max": 5
+	},
+	"data": {
+		"akaa": -0.95,
+		"hameenkyro": -3.39,
+		"ikaalinen": 0.96,
+		"juupajoki": -1.95,
+		"kangasala": 2.28,
+		"kihnio": -6.10,
+		"lempaala": 0.21,
+		"mantta-vilppula": -0.24,
+		"nokia": -0.36,
+		"orivesi": -3.44,
+		"parkano": -1.46,
+		"pirkkala": 1.71,
+		"punkalaidun": 0.35,
+		"palkane": 1.18,
+		"ruovesi": 1.83,
+		"sastamala": -0.36,
+		"tampere": 1.84,
+		"urjala": 0.40,
+		"valkeakoski": -0.44,
+		"vesilahti": 4.38,
+		"virrat": -2.31,
+		"ylojarvi": 3.50,
+		"pirkanmaa": 1.10,
+		"suomi": 0.31
+	}
+}

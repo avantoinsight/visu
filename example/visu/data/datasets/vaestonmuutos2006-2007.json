@@ -1,0 +1,37 @@
+{
+	"title": "Väestön muutos 2006-2007",
+	"data-unit-symbol": "%",
+	"data-description": "Muutos",
+	"display-color": "RdYlBu",
+	"invert-colors": true,
+	"display-range": {
+		"min": -3,
+		"max": 3
+	},
+	"data": {
+                "suomi":0.44,
+                "pirkanmaa":0.93,
+                "akaa":0.91,
+                "hameenkyro":0.37,
+                "ikaalinen":-0.37,
+                "juupajoki":0.05,
+                "kangasala":1.4,
+                "kihnio":-1.1,
+                "lempaala":2.95,
+                "mantta-vilppula":-0.97,
+                "nokia":2.44,
+                "orivesi":0.72,
+                "parkano":-1.14,
+                "pirkkala":3.29,
+                "punkalaidun":-0.53,
+                "palkane":1.08,
+                "ruovesi":-2.29,
+                "sastamala":0.22,
+                "tampere":0.72,
+                "urjala":-0.4,
+                "valkeakoski":0,
+                "vesilahti":3.35,
+                "virrat":-1.1,
+                "ylojarvi":2.34
+               }
+}

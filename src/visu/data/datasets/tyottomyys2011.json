@@ -1,0 +1,37 @@
+{
+	"title": "Työttömyysaste 2011",
+	"data-unit-symbol": "%",
+	"data-description": "Työttömien osuus työvoimasta",
+	"display-color": "Oranges",
+	"invert-colors": false,
+	"display-range": {
+		"min": 5,
+		"max": 15
+	},
+	"data": {
+		"akaa": 10.7,
+		"hameenkyro": 8.7,
+		"ikaalinen": 6.7,
+		"juupajoki": 10.2,
+		"kangasala": 7.8,
+		"kihnio": 7.4,
+		"lempaala": 8.0,
+		"mantta-vilppula": 11.7,
+		"nokia": 9.8,
+		"orivesi": 9.8,
+		"parkano": 8.4,
+		"pirkkala": 8.0,
+		"punkalaidun": 6.3,
+		"palkane": 8.6,
+		"ruovesi": 9.5,
+		"sastamala": 6.2,
+		"tampere": 12.7,
+		"urjala": 11.7,
+		"valkeakoski": 12.2,
+		"vesilahti": 6.8,
+		"virrat": 9.7,
+		"ylojarvi": 8.2,
+		"pirkanmaa": 10.6,
+		"suomi": 9.1
+	}
+}

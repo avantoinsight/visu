@@ -1,0 +1,36 @@
+{
+	"title": "Koulutusaste 2010",
+	"data-unit-symbol": "%",
+	"data-description": "Osuus kunnan väestöstä",
+	"display-color": "Blues",
+	"display-range": {
+		"min": 0,
+		"max": 20
+	},
+	"data": {
+		"suomi":17,
+		"pirkanmaa":18,
+		"kangasala":19,
+		"lempaala":21,
+		"nokia":16,
+		"pirkkala":26,
+		"tampere":23,
+		"valkeakoski":13,
+		"ylojarvi":17,
+		"akaa":13,
+		"hameenkyro":10,
+		"ikaalinen":11,
+		"mantta-vilppula":8,
+		"orivesi":11,
+		"parkano":8,
+		"sastamala":10,
+		"juupajoki":8,
+		"kihnio":7,
+		"punkalaidun":8,
+		"palkane":11,
+		"ruovesi":8,
+		"urjala":8,
+		"vesilahti":17,
+		"virrat":9
+    }
+}

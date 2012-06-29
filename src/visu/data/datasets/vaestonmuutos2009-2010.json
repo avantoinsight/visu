@@ -1,0 +1,37 @@
+{
+	"title": "Väestön muutos 2009-2010",
+	"data-unit-symbol": "%",
+	"data-description": "Muutos",
+	"display-color": "RdYlBu",
+	"invert-colors": true,
+	"display-range": {
+		"min": -3,
+		"max": 3
+	},
+	"data": {
+                "suomi":0.44,
+                "pirkanmaa":0.71,
+                "akaa":0.91,
+                "hameenkyro":0.51,
+                "ikaalinen":0.05,
+                "juupajoki":-1.05,
+                "kangasala":0.52,
+                "kihnio":-1.39,
+                "lempaala":1.99,
+                "mantta-vilppula":-0.73,
+                "nokia":0.92,
+                "orivesi":-0.18,
+                "parkano":-1.3,
+                "pirkkala":4.19,
+                "punkalaidun":-1.58,
+                "palkane":-0.89,
+                "ruovesi":-1.25,
+                "sastamala":0.08,
+                "tampere":0.8,
+                "urjala":-0.51,
+                "valkeakoski":1.02,
+                "vesilahti":-0.46,
+                "virrat":-1.3,
+                "ylojarvi":1.07
+               }
+}

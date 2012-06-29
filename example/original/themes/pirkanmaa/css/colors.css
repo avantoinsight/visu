@@ -1,0 +1,33 @@
+
+/* ---------- Color Module Styles ----------- */
+
+body,
+body.overlay {
+  color: #565555;
+}
+.comment .comment-arrow {
+  border-color: #ffffff;
+}
+
+.tabs ul.primary li.active a {
+  
+}
+#header {
+
+}
+a {
+  color: #35859F;
+}
+
+.sidebar .block {
+  
+}
+
+.region-header,
+.region-header a,
+.region-header li a.active,
+#name-and-slogan,
+#name-and-slogan a,
+#secondary-menu-links li a {
+  color: #999;
+}

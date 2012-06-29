@@ -1,0 +1,128 @@
+
+<!-- VISU BEGINS -->
+<!-- Designed for width of 650px -->
+<!-- Include following HTML to the target page in given order -->
+
+<!-- Visu styles -->
+<link rel="stylesheet" href="visu/css/layout.css" />
+<link rel="stylesheet" href="visu/css/colorbrewer.css" />
+
+<!-- Visu HTML -->
+<div class='visu-container'>
+	
+	<div class="visu-status">
+		<p class="visu-loading"><img src="visu/img/ajaxload.gif" alt="Ladataan..." title="Ladataan..." /></p>
+		<p class="visu-notice">Jos tilastot eivät lataudu, tarkista selaimesi asetuksista, että JavaScriptin suorittaminen on sallittu.</p>
+	</div>
+	
+	<div id='visu-menu-slot'></div>
+	<div id='visu-data'>
+		<div id='visu-title-slot'></div>
+		<div id='visu-map-slot'></div>
+		<div id='visu-table-slot'></div>
+	</div>
+	<div class='visu-clear visu-footer'>
+		Toteutus <a href='http://www.akselipalen.com'>Akseli Pal&eacute;n</a> &amp; <a href='http://avanto.in/'>Avanto Insight</a>
+	</div>
+</div>
+
+<!-- Visu scripts -->
+<script src="visu/js/libs/modernizr.custom.inlinesvg.js"></script>
+<script src="visu/js/libs/handlebars-1.0.0.beta.6.js"></script>
+<script src="visu/js/libs/d3.v2.min.js"></script>
+<script src="visu/js/visustatus.js"></script>
+<script src="visu/js/visuhelpers.js"></script>
+<script src="visu/js/visutooltip.js"></script>
+<script src="visu/js/visumodal.js"></script>
+<script src="visu/js/visuareamodal.js"></script>
+<script src="visu/js/visulegend.js"></script>
+<script src="visu/js/visumap.js"></script>
+<script src="visu/js/visutable.js"></script>
+<script src="visu/js/visutitle.js"></script>
+<script src="visu/js/visumenu.js"></script>
+<script src="visu/js/visucontroller.js"></script>
+<script src="visu/js/main.js"></script>
+
+<!-- Visu templates -->
+<script id="visu-modal-template" type="text/x-handlebars-template">
+	<div class='visu-modal-bg'></div>
+	<div class='visu-modal-frame'>
+		<div class='visu-modal-window'>
+			<div class='visu-modal-actions'>
+				<span class='visu-modal-close visu-modal-action'>X</span>
+			</div>
+			<div class='visu-modal-content'>
+			</div>
+		</div>
+	</div>
+</script>
+
+<script id="visu-area-modal-template" type="text/x-handlebars-template">
+	<div class="visu-modal-heading">
+		<h2>{{ name }}</h2>
+		<div><a href="{{ url }}" class="visu-external-link">{{ url_title }}</a></div>
+	</div>
+	<div class="visu-modal-items">
+		{{#each items}}
+		<div>{{key}}: {{value}}</div>
+		{{/each}}
+	</div>
+</script>
+
+<script id="visu-table-template" type="text/x-handlebars-template">
+	<div class="visu-table">
+		<h2 class="visu-table-title">{{ title }}</h2>
+		<table class="visu-areas">
+			<thead>
+				<tr>
+					<th>Kunta</th>
+					{{#each headings}}
+					<th>{{this}}</th>
+					{{/each}}
+				</tr>
+			</thead>
+			<tbody>
+				
+			</tbody>
+		</table>
+	</div>
+</script>
+
+<script id="visu-area-template" type="text/x-handlebars-template">
+	{{#if special}}
+	<tr class="visu-area visu-special">
+	{{else}}
+	<tr class="visu-area">
+	{{/if}}
+		<td>{{ name }}</td>
+		{{#each values}}
+		<td>{{ this }}</td>
+		{{/each}}
+	</tr>
+</script>
+
+<script id="visu-stat-template" type="text/x-handlebars-template">
+	<li class='visu-stat'>
+		<h3>{{ title }}</h3>
+		<div class='visu-stat-content'>
+			<ul class='visu-data-sets'>
+			</ul>
+			<h4>Selite</h4>
+			<p>{{ description }}</p>
+			<h4>Lähteet</h4>
+			<ul class='visu-sources'>
+			</ul>
+		</div>
+	</li>
+</script>
+
+<script id="visu-tooltip-template" type="text/x-handlebars-template">
+	<div class="visu-tooltip-content">
+		<div class="visu-tooltip-title">{{ title }}</div>
+		{{#each items}}
+		<div class="visu-tooltip-data">{{value}}</div>
+		{{/each}}
+	</div>
+</script>
+
+<!-- VISU ENDS -->

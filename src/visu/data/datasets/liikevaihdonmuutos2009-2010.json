@@ -1,0 +1,34 @@
+{
+	"title": "Yritysten liikevaihdon muutos 2009-2010",
+	"data-unit-symbol": "%",
+	"data-description": "Muutos",
+	"display-color": "RdYlBu",
+	"display-range": {
+		"min": -20,
+		"max": 20
+	},
+	"data": {
+                "akaa":3.32,
+                "hameenkyro":2.88, 
+                "ikaalinen":-5.30,
+                "juupajoki":14.36,
+                "kangasala":2.99,
+                "kihnio":10.47,
+                "lempaala":10.35,
+                "mantta-vilppula":1.30,
+                "nokia":21.26,
+                "orivesi":0.04, 
+                "parkano":-11.88,
+                "pirkkala":9.65, 
+                "punkalaidun":-0.89, 
+                "palkane":18.60,
+                "ruovesi":7.44,
+                "sastamala":6.82,
+                "tampere":5.05,
+                "urjala":-12.36,
+                "valkeakoski":20.26, 
+                "vesilahti":-5.14,
+                "virrat":3.99,
+                "ylojarvi":6.50
+        }
+}

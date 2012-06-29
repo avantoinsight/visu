@@ -1,0 +1,37 @@
+{
+	"title": "Väestön muutos 2000-2001",
+	"data-unit-symbol": "%",
+	"data-description": "Muutos",
+	"display-color": "RdYlBu",
+	"invert-colors": true,
+	"display-range": {
+		"min": -3,
+		"max": 3
+	},
+	"data": {
+    "suomi":0.27,
+    "pirkanmaa":0.8,
+    "akaa":0.48,
+    "hameenkyro":0.18,
+    "ikaalinen":-0.38,
+    "juupajoki":-2.73,
+    "kangasala":1.13,
+    "kihnio":-1.71,
+    "lempaala":2.57,
+    "mantta-vilppula":-1,
+    "nokia":1.44,
+    "orivesi":0.35,
+    "parkano":-0.63,
+    "pirkkala":4.1,
+    "punkalaidun":-2.41,
+    "palkane":-0.86,
+    "ruovesi":-1.65,
+    "sastamala":-0.71,
+    "tampere":1.17,
+    "urjala":-1.62,
+    "valkeakoski":-0.34,
+    "vesilahti":1.72,
+    "virrat":-0.92,
+    "ylojarvi":1.74
+   }
+}

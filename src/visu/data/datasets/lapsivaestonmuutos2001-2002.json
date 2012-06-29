@@ -1,0 +1,47 @@
+{
+	"title": "Lapsiväestön muutos 2001-2002",
+	"description": "Lapsiväestö (- 14-v.) alueittain",
+	"data-unit-symbol": "%",
+	"data-description": "Muutos",
+	"display-color": "RdYlBu", "invert-colors": true,
+	"display-range": {
+		"min": -5,
+		"max": 5
+	},
+	"data": {
+		"akaa":0.8,
+		"urjala":-1.3,
+		"valkeakoski":0.8,
+		
+		
+		"punkalaidun":-3.1,
+		"sastamala":-1.6,
+		
+		
+		"ikaalinen":-3.3,
+		"kihnio":-0.8,
+		"parkano":-3.5,
+		
+		
+		"hameenkyro":1.3,
+		"kangasala":1.3,
+		"lempaala":2.2,
+		"nokia":1.5,
+		"orivesi":-2.5,
+		"pirkkala":3.1,
+		"palkane":-0.8,
+		"tampere":-0.5,
+		"vesilahti":5,
+		"ylojarvi":1.6,
+		
+		
+		"juupajoki":-3.8,
+		"mantta-vilppula":-1.9,
+		"ruovesi":-0.8,
+		"virrat":-1.7,
+		
+		"pirkanmaa":0.1,
+		"suomi":-0.5
+
+                }
+}
