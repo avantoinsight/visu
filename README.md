@@ -6,31 +6,24 @@ Avoin selainpohjainen tilastovisualisaatio.
 Rakenne
 -------
 
-  data -- Mm. aluerajojen lähdetiedostot
-
-  doc -- Ohjeet ja dokumentaatio
-		ohjeet_yllapitajalle...pdf -- Ohjeet tilaston lisäämiseen ja poistoon. 
-
-	example -- Standalone esimerkki asennuksesta pirkanmaa.fi-sivustolle
-		original -- Pirkanmaa.fi:n tiedostoja
-		visu -- Aputiedostot
-		index.html -- Pirkanmaa.fi:n etusivu
-		tilastoja.html
-			-- Pirkanmaa.fi:n alasivu, johon lisätty Visun HTML.
-			-- Ks. rivit 250-350
-  
-  img -- Grafiikan lähdetiedostot
-			
-	src -- Asennettavat tiedostot
-		visu -- Aputiedostot kuten JS-kirjastot, kuvat ja tyylit
-			css -- Tyylit
-			data -- Tilastot JSON-muodossa
-			img -- Kuvat
-			js -- JavaScript-luokat ja apukirjastot
-				main.js -- aloittaa visualisaation
-		snippet.html -- Kohdesivulle liitettävä HTML
-	
-	README.md -- Nämä asennusohjeet
+* data -- Mm. aluerajojen lähdetiedostot
+* doc -- Ohjeet ja dokumentaatio
+  * ohjeet_yllapitajalle...pdf -- Ohjeet tilaston lisäämiseen ja poistoon. 
+* example -- Standalone esimerkki asennuksesta pirkanmaa.fi-sivustolle
+  * original -- Pirkanmaa.fi:n tiedostoja
+  * visu -- Aputiedostot
+  * index.html -- Pirkanmaa.fi:n etusivu
+  * tilastoja.html -- Pirkanmaa.fi:n alasivu, johon lisätty Visun HTML. Ks. rivit 250-350
+* img -- Grafiikan lähdetiedostot
+* src -- Asennettavat tiedostot
+  * visu -- Aputiedostot kuten JS-kirjastot, kuvat ja tyylit
+    * css -- Tyylit
+    * data -- Tilastot JSON-muodossa
+    * img -- Kuvat
+    * js -- JavaScript-luokat ja apukirjastot
+      * main.js -- aloittaa visualisaation
+    * snippet.html -- Kohdesivulle liitettävä HTML
+* README.md -- Nämä asennusohjeet
 
 Vaatimukset
 -----------
@@ -39,6 +32,7 @@ Vaatimukset
 Asennus
 -------
 
+### Vaiheet
 1. Kopioi src/visu/-hakemisto kohdesivustolle
 2. Kopioi src/snippet.html-tiedoston sisältämä HTML kohdesivulle.
 3. Jos tarvetta, päivitä kopioidun HTML:n link ja script -tagien osoitteet vastaamaan src/visu/-hakemiston asennussijaintia.
@@ -53,13 +47,10 @@ Asennus
 Käytössä sivustoilla
 --------------------
 
-http://www.pirkanmaa.fi/fi/pirkanmaa/avoin-tilastopalvelu
+* http://www.pirkanmaa.fi/fi/pirkanmaa/avoin-tilastopalvelu
 
 Alkuperäinen suunnittelu ja toteutus
 ------------------------------------
-Avanto Insight
-avanto.in
+Avanto Insight ([avanto.in](http://www.avanto.in))
 
-Akseli Palén
-akseli.palen@gmail.com
-akselipalen.com
+Akseli Palén ([akselipalen.com](http://www.akselipalen.com))
